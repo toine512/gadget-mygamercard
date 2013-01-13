@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>About</title>
+		<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/about.css" />
+		<script type="text/javascript" src="js/about.js"></script>
+	</head>
+	<body onload="Load();">
+		<p id="nav">
+			<button id="button_avatar" onclick="Avatar();">Avatar</button>
+			<button onclick="Options();">Options</button>
+			<button onclick="aPropos();">&Agrave; propos</button>
+		</p>
+		<div id="div_avatar" style="text-align: center;">
+			<p id="tools">
+				<a id="friend" href="#">
+					<img src="img/sendfr.gif" alt="amis" />
+				</a>
+				<a id="message" href="#">
+					<img src="img/sendmsg.gif" alt="message" />
+				</a>
+				<a id="profile" href="#">
+					<img src="img/xboxprofile.gif" alt="profile" />
+				</a>
+			</p>
+			<p id="name"></p>
+			<p>
+				<img id="avatar" src="#" alt="avatar" />
+			</p>
+		</div>
+		<div id="options">
+			<form id="check_options">
+				<p>
+					<label for="gamertag">Gamertag :</label><br />
+					<input type="text" name="gamertag" id="gamertag" size="40" />
+				</p>
+				<p>
+					<input type="checkbox" name="flash" id="flash" /> <label for="flash">Désactiver Flash</label> (GC basique)<br />
+					<input type="checkbox" name="silverlight" id="silverlight" /> <label for="silverlight">Désactiver Silverlight</label> (GC NXE)
+				</p>
+			</form>
+			<p style="text-align: justify;">Si Flash ou Silverlight n'est pas présent ou n'est pas utilisable (Windows Sidebar 64 bits), un contenu alternatif sera automatiquement affiché.</p>
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer_fr">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png" alt="télécharger Adobe Flash Player" />
+				</a>
+			</p>
+			<p>
+				<a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40624.0">
+					<img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="télécharger Microsoft Silverlight" />
+				</a>
+			</p>
+		</div>
+		<div id="a_propos">
+			<p style="text-align: justify;">
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">Xbox GamerCard Gadget</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://toine.fr.nf/gadgets" property="cc:attributionName" rel="cc:attributionURL">toine512</a> est mis &#224; disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">licence Creative Commons Paternit&#233;-Partage des Conditions Initiales &#224; l'Identique 2.0 France</a>.
+			</p>
+			<p>Microsoft, XBOX 360, XBOX Live, Windows, Silverlight, le logo XBOX 360 et le logo XBOX Live sont des marques commerciales et/ou déposées de Microsoft Corporation.<br />
+			Adobe, Flash, et le logo Flash sont des marques commerciales et/ou déposées d'Adobe Systems Incorporated.</p>
+			<p>Propulsé par <a href="http://www.mygamercard.net/">MyGamerCard.net</a></p>
+			<p><strong>v. 2</strong></p>
+		</div>
+	</body>
+</html>

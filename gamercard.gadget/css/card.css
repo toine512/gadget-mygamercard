@@ -1,0 +1,49 @@
+body
+{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: Calibri, sans-serif;
+	font-size: 16px;
+}
+
+img
+{
+	border: none;
+	-ms-interpolation-mode: bicubic;
+}
+
+#divUndocked, #divDocked
+{
+	margin: 1px;
+	display: none;
+}
+
+#gTagPrompt
+{
+	display: none;
+	background-image: url(../img/Xbox360.png);
+	width: 130px;
+	height: 80px;
+}
+
+#gTagPrompt input
+{
+	display: block;
+	margin: auto;
+	margin-top: 4px;
+	width: 120px;
+}
+
+#gamertag
+{
+	border: 2px solid #6CC817;
+	background: none;
+	font-weight: bold;
+	cursor: text;
+}
+
+#gamertag:hover
+{
+	background-image: url(../img/txtbox_bg.png);
+}

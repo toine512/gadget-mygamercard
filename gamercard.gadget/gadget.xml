@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+	<gadget>
+		<name>Xbox GamerCard Gadget</name>
+		<namespace>toine512</namespace>
+		<version>2</version>
+		<author name="toine512">
+			<info url="http://toine.fr.nf/gadgets" />
+			<logo src="img/mgc_logo.png" />
+		</author>
+		<copyright>CC BY-SA</copyright>
+		<description>refresh toutes les 30 min</description>
+		<icons>
+			<icon height="64" width="64" src="img/xbox_live.png" />
+		</icons>
+		<hosts>
+			<host name="sidebar">
+				<!-- New autoscaleDPI node -->
+				<autoscaleDPI>true</autoscaleDPI>
+				<!-- ********************* -->
+				<base type="HTML" apiVersion="1.0.0" src="card.html" />
+				<permissions>Full</permissions>
+				<platform minPlatformVersion="0.3" />
+			</host>
+		</hosts>
+		<version value="1.0.0.0" MinPlatformVersion="0.1" />
+	</gadget>
